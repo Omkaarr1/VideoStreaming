@@ -85,12 +85,6 @@ export const AfterLoginHome = () => {
                   </a>
                 </div>
               </a>
-              <a target="" id="smooth-scroll" href="#drama">
-                <div className="frame-3">
-                  <img className="img-2" alt="Frame" src="/img/frame-1.svg" />
-                  <div className="text-wrapper-3">Drama</div>
-                </div>
-              </a>
               <a
                 target="_blank"
                 id="smooth-scroll"
@@ -411,7 +405,7 @@ export const AfterLoginHome = () => {
                     onClick={() => showMovieDetails(item)}
                     className="search-result-item"
                   >
-                    <div className="movies-item">
+                   <a href={item.Link}> <div className="movies-item">
                       <img
                         src={item.Img}
                         alt={item.Title}
@@ -421,7 +415,7 @@ export const AfterLoginHome = () => {
                       <div className="movies-details">
                         <h3>{item.Title}</h3>
                       </div>
-                    </div>
+                    </div></a>
                   </li>
                 ))}
                 {searchResults.length === 0 && <p>No results found.</p>}

@@ -164,7 +164,7 @@ div {
   display: inline-flex;
   gap: 8px;
   justify-content: center;
-  left: 300px;
+  left: 200px;
   position: absolute;
   top: 0;
 }
@@ -210,7 +210,17 @@ div {
   display: inline-flex;
   gap: 8px;
   justify-content: center;
-  left: 445px;
+  left: 345px;
+  position: absolute;
+  top: 0;
+}
+
+.after-login-home .frameuser {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  left: 480px;
   position: absolute;
   top: 0;
 }
