@@ -52,11 +52,12 @@ export const AfterLoginHome = () => {
   };
 
   document.body.style.zoom = "80%";
+  
 
   return (
     <>
       <div className="after-login-home">
-        <div className="div" id="zoomdiv">
+        <div className="div" id="zoomdiv" >
           <div className="nev-menu">
             <div className="logo">
               <div className="overlap-group-2">
@@ -122,19 +123,11 @@ export const AfterLoginHome = () => {
             </button>
           </div>
 
-          <div className="most-popular">
+          <div className="most-popular" >
             <div className="most-popular-2">
               <div className="text-wrapper-7" id="mostpopular">
                 Most Popular
-              </div>
-              <div className="group-8">
-                <div className="text-wrapper-12">See all</div>
-                <img
-                  className="svgexport"
-                  alt="Svgexport"
-                  src="/img/svgexport-4.svg"
-                />
-              </div>
+              </div>  
             </div>
             <div className="most-popular-3">
               <a
@@ -204,18 +197,10 @@ export const AfterLoginHome = () => {
               </a>
             </div>
           </div>
-          <div className="movies-for-you">
+          <div className="movies-for-you"  id="header custom-scroll">
             <div className="movi">
               <div className="text-wrapper-7" id="drama">
                 Movies for you
-              </div>
-              <div className="group-8">
-                <div className="text-wrapper-12">See all</div>
-                <img
-                  className="svgexport"
-                  alt="Svgexport"
-                  src="/img/svgexport-4.svg"
-                />
               </div>
             </div>
             <div className="frame-9">
