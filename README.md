@@ -2,6 +2,8 @@
 
 Video Streaming is a Single Page Application (SPA) developed for streaming movies online. It leverages modern web technologies to create an immersive and user-friendly movie streaming experience. Users can easily browse through a collection of movies and start streaming their preferred selections with just a click.
 
+## Try for Yourself [Try Now!](http://34.131.245.98/)
+
 ## Technologies Used
 
 The project utilizes a range of technologies and frameworks:
