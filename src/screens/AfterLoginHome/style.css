@@ -1544,3 +1544,7 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: transparent; /* Set the thumb color to match the background */
 }
+
+#fix{
+  display: fixed;
+}

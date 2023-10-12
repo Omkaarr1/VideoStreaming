@@ -58,6 +58,7 @@ export const AfterLoginHome = () => {
     <>
       <div className="after-login-home">
         <div className="div" id="zoomdiv" >
+          <div class="fix">
           <div className="nev-menu">
             <div className="logo">
               <div className="overlap-group-2">
@@ -120,7 +121,7 @@ export const AfterLoginHome = () => {
             <button onClick={handleShowModal} className="link" id="btn-btn">
               <img className="frame-7" alt="Frame" src="/img/frame.svg" />
             </button>
-          </div>
+          </div></div>
 
           <div className="most-popular" >
             <div className="most-popular-2">
@@ -326,21 +327,19 @@ export const AfterLoginHome = () => {
                 <img
                   className="rectangle-6"
                   alt="Rectangle"
-                  src="https://collider.com/wp-content/uploads/dark-knight-rises-movie-poster-banner-batman.jpg"
+                  src="https://spitfireaudio.imgix.net/77a191f4-76bc-460a-bed7-8d36c2b02653/LOKI2.jpeg?auto=format&crop=entropy&fit=crop&fm=jpg&h=630&q=80&rect=148%2C0%2C1621%2C1080&w=1200"
                 />
                 <div className="overly" />
               </div>
             </div>
             <div className="group-18">
               <p className="text-wrapper-19">
-                Action, Thriller • 2012 • 2h 45m
+                Action, Thriller • 2023 • 45m
               </p>
               <p className="the-trailer-of">
-                Bane, an imposing terrorist, attacks Gotham City and disrupts
-                its period of peace. This forces Bruce Wayne to come out of
-                hiding.
+              Loki, the God of Mischief, steps out of his brother's shadow to embark on an adventure that takes place after the events of "Avengers: Endgame."
               </p>
-              <div className="text-wrapper-20">The Dark Knight Rise</div>
+              <div className="text-wrapper-20">Loki Season 2 Episode 1</div>
             </div>
             <a
               target="_blank"
