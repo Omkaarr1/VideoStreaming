@@ -1491,3 +1491,15 @@ ul {
   border: none;
   outline: none;
 }
+
+@media (max-width: 500px) {
+  .after-login-home {
+    background-color: #0a070b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    max-width: 330px;
+  padding: 10px 36px;
+  }
+  }

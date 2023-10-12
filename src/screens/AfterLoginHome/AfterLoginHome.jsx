@@ -51,10 +51,12 @@ export const AfterLoginHome = () => {
     setShowModal(false);
   };
 
+  document.body.style.zoom = "80%";
+
   return (
     <>
       <div className="after-login-home">
-        <div className="div">
+        <div className="div" id="zoomdiv">
           <div className="nev-menu">
             <div className="logo">
               <div className="overlap-group-2">
@@ -405,17 +407,20 @@ export const AfterLoginHome = () => {
                     onClick={() => showMovieDetails(item)}
                     className="search-result-item"
                   >
-                   <a href={item.Link}> <div className="movies-item">
-                      <img
-                        src={item.Img}
-                        alt={item.Title}
-                        className="movies-image"
-                        style={{ width: "100px", height: "100px" }}
-                      />
-                      <div className="movies-details">
-                        <h3>{item.Title}</h3>
+                    <a href={item.Link}>
+                      {" "}
+                      <div className="movies-item">
+                        <img
+                          src={item.Img}
+                          alt={item.Title}
+                          className="movies-image"
+                          style={{ width: "100px", height: "100px" }}
+                        />
+                        <div className="movies-details">
+                          <h3>{item.Title}</h3>
+                        </div>
                       </div>
-                    </div></a>
+                    </a>
                   </li>
                 ))}
                 {searchResults.length === 0 && <p>No results found.</p>}
