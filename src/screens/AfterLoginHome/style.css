@@ -1491,6 +1491,7 @@ ul {
   border: none;
   outline: none;
   background-color: black;
+  cursor: pointer;
 }
 
 @media (max-width: 500px) {
