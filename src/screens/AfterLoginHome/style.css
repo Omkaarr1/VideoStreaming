@@ -1490,6 +1490,7 @@ ul {
 #btn-btn {
   border: none;
   outline: none;
+  background-color: black;
 }
 
 @media (max-width: 500px) {
