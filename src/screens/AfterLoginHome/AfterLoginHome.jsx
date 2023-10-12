@@ -104,7 +104,6 @@ export const AfterLoginHome = () => {
               </a>
 
               <a
-                target="_blank"
                 id="smooth-scroll"
                 href="https://omkaarr1.github.io/MookingBookingWebsite/"
               >
@@ -142,7 +141,7 @@ export const AfterLoginHome = () => {
                 id="smooth-scroll"
                 href="https://storage.cloud.google.com/movies404/Movies/LondonHasFallen.mkv"
               >
-                <Component
+                <Component  
                   className="component-instance"
                   text="London has Fallen"
                 />
