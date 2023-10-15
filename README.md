@@ -2,7 +2,7 @@
 
 Video Streaming is a Single Page Application (SPA) developed for streaming movies online. It leverages modern web technologies to create an immersive and user-friendly movie streaming experience. Users can easily browse through a collection of movies and start streaming their preferred selections with just a click.
 
-## Try for Yourself [Click Here!]([https://videostream-i6ramtxev-omkaarr1s-projects.vercel.app/])
+## Try for Yourself [Click Here!](https://videostream-i6ramtxev-omkaarr1s-projects.vercel.app/)
 
 ## Technologies Used
 
